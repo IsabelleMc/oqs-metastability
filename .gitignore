@@ -1,0 +1,24 @@
+# Caches and build artefacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Simulation outputs (often large, regenerable)
+*.p
+*.pkl
+*.npz
+*.npy
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+
+# nbconvert artefacts
+*_executed.ipynb
